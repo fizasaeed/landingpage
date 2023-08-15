@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+  clear:both;
+  overflow:auto;
+  background-color: rgb(61, 61, 96);
+  color:white;
+  height: 600px;
+}
+
+nav{
+    float:right;
+    height:30px;
+}
+
+.logo {
+    float:left;
+    padding:20px;
+    font-size: 20px;
+    height:30px;
+    transition:all 0.3s ease-in-out;
+}
+.logo:hover{
+    color:orange;
+}
+
+ul li{
+    padding:20px;
+  display: inline-block;
+   padding-right:70px;
+  font-size:20px;
+   transition:all 0.3s ease-in-out;
+}
+
+ul li:hover{
+  color:orange;
+  
+}
+.img1{
+    width:50px;
+    height:40px;
+    float:right; 
+    padding:100px;
+    margin:auto;
+
+}
+.content{
+    width:50%;
+    height:60px;
+    float:left;
+    padding-bottom:30px;
+    padding-left:50px;
+
+}
+button{
+
+    width:150px;
+    height:50px;
+    float:left;
+    padding: 10px;
+    /* padding-bottom:30px;
+    padding-left:50px;    
+    align-items: center;
+    font-size: large;
+    margin-top: 20px;   */
+    background-color: rgb(61, 61, 96);
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition:all 0.3s ease-in-out;
+}
+button:hover{
+    color:orange;
+}
+.main h1{
+    color:rgb(61, 61, 96); 
+    text-align: center;
+    margin: 10px;
+    padding:50px;
+    height: 10%;
+}
+.boxes{
+    display: flex;
+    /* flex-wrap: wrap; */
+   /* flex-direction: row; */
+   height:600px;
+   width:1200px;
+   /* justify-content: space-between; */
+   gap:25px;
+   align-items: center;
+   justify-content: space-around;
+   margin: auto;
+}
+   
+.box1{
+    background-color: rgb(216, 108, 126);
+    height:300px;
+    width:350px;
+   text-align: center;
+   padding:15px;
+}
+
+
+.box2{
+    background-color: rgb(245, 217, 4);
+    height:300px;
+    width:350px;
+    text-align: center;
+    padding:15px;
+    
+}
+
+.box3{
+    background-color: rgb(83, 214, 250);
+    height:300px;
+    width:350px;
+    text-align: center;
+    padding:15px;
+}
+
+.box4{
+    background-color: rgba(221, 160, 221, 0.341);
+    height:300px;
+    width:350px;
+    text-align: center;
+    padding:15px;
+}
+.footer{
+    height:100px;
+    background-color: rgb(61, 61, 96);
+    color:white;
+    text-align: center;
+}
+.footer h1 span{
+color: yellow;
+}
